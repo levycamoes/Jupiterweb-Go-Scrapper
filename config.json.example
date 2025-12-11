@@ -1,0 +1,12 @@
+{
+  "baseURL": "https://uspdigital.usp.br",
+  "loginURL": "https://uspdigital.usp.br/jupiterweb/webLogin.jsp",
+  "authURL": "https://uspdigital.usp.br/jupiterweb/autenticar",
+  "listPageURL": "https://uspdigital.usp.br/jupiterweb/beneficioBolsaUnificadaListar?codmnu=6684",
+  "dwrApiURL": "https://uspdigital.usp.br/jupiterweb/dwr/call/plaincall/BeneficioBolsaUnificadaControleDWR.listarBeneficioBolsaUnificada.dwr",
+  "user": "username",
+  "password": "password",
+  "year": "2015",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36",
+  "timeout": 180
+}
