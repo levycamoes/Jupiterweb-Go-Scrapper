@@ -16,33 +16,6 @@ Key Feature: It simulates the generation of security tokens (scriptSessionId and
 
 Advantage: Extremely lightweight, fast, and resource-efficient.
 
-## 🛠️ How to Run
-
-First, clone this repo
-
-```
-git clone https://github.com/your-username/usp-pub-crawler.git
-cd usp-pub-crawler/go-version
-```
-
-Config with your user and passowrd
-
-```
-const (
-    USUARIO = "YOUR_NUSP"
-    SENHA   = "YOUR_PASSWORD"
-    ANO_EDITAL = "2023" // Choose the desired year to scrape
-)
-```
-
-Dependences
-
-```
-go mod init bolsa-usp
-go mod tidy
-go run main.go
-```
-
 ## 🧠 Technical Details (DWR Reverse Engineering)
 
 The JupiterWeb system uses a legacy technology called DWR (Direct Web Remoting), which allows JavaScript to invoke Java methods on the server.
